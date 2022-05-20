@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Database" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Database" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-pthread" />
+					<Add option="-lboost_filesystem" />
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS" />
+					<Add option="-lboost_system" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-pthread" />
+					<Add option="-lboost_system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Database" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++14" />
+					<Add option="-pthread" />
+					<Add option="-lboost_filesystem" />
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS" />
+					<Add option="-lboost_system" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-pthread" />
+					<Add option="-lboost_system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-pthread" />
+			<Add option="-lboost_filesystem" />
+			<Add option="-lboost_system" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-pthread" />
+			<Add option="-lboost_system" />
+		</Linker>
+		<Unit filename="include/Col_Handler.h" />
+		<Unit filename="include/DB_Exceptions.h" />
+		<Unit filename="include/Database.h" />
+		<Unit filename="include/Exisiting_DB.h" />
+		<Unit filename="include/Handler.h" />
+		<Unit filename="include/NSQL_TabHandler.h" />
+		<Unit filename="include/SQL_TabHandler.h" />
+		<Unit filename="include/functionsDB.h" />
+		<Unit filename="include/paramDefinitions.h" />
+		<Unit filename="include/tableInfo.h" />
+		<Unit filename="include/tableInfoNSQL.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Col_Handler.cpp" />
+		<Unit filename="src/DB_Exceptions.cpp" />
+		<Unit filename="src/Database.cpp" />
+		<Unit filename="src/Exisiting_DB.cpp" />
+		<Unit filename="src/Handler.cpp" />
+		<Unit filename="src/NSQL_TabHandler.cpp" />
+		<Unit filename="src/SQL_TabHandler.cpp" />
+		<Unit filename="src/functionsDB.cpp" />
+		<Unit filename="src/tableInfo.cpp" />
+		<Unit filename="src/tableInfoNSQL.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

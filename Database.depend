@@ -1,0 +1,371 @@
+# depslib dependency file v1.0
+1621935875 source:/home/Death/Desktop/Database c++/Database/main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<new>
+	<fstream>
+	<unistd.h>
+	"functionsDB.h"
+	"Exisiting_DB.h"
+	"Database.h"
+	<syscall.h>
+
+1621854878 /home/Death/Desktop/Database c++/Database/include/Database.h
+	"Database.h"
+	"functionsDB.h"
+	"Handler.h"
+	"paramDefinitions.h"
+
+1620387064 source:/home/Death/Desktop/Database c++/Database/src/Database.cpp
+	"Database.h"
+
+1596791226 source:/home/Death/Desktop/Database c++/Database/src/parse.cpp
+	"parse.h"
+	<string>
+	<iostream>
+	<vector>
+
+1596790643 /home/Death/Desktop/Database c++/Database/include/parse.h
+	<vector>
+	<string>
+
+1596814940 source:/home/Death/Desktop/Database c++/Database/src/getDB.cpp
+	"getDB.h"
+
+1596814940 /home/Death/Desktop/Database c++/Database/include/getDB.h
+
+1621854597 /home/Death/Desktop/Database c++/Database/include/Exisiting_DB.h
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1619351876 source:/home/Death/Desktop/Database c++/Database/src/Exisiting_DB.cpp
+	"Exisiting_DB.h"
+
+1597563951 /home/Death/Desktop/Database c++/Database/include/dbFuntions.h
+	<vector>
+	<string>
+
+1621854879 /home/Death/Desktop/Database c++/Database/include/functionsDB.h
+	<paramDefinitions.h>
+
+1621245175 source:/home/Death/Desktop/Database c++/Database/src/functionsDB.cpp
+	"functionsDB.h"
+
+1617878611 /home/Death/Desktop/Database c++/Database/include/SQL.h
+	<string>
+	<bitset>
+
+1617819539 /home/Death/Desktop/Database c++/Database/include/NSQL.h
+	<string>
+	<bitset>
+
+1617278008 source:/home/Death/Desktop/Database c++/Database/src/NSQL.cpp
+	"NSQL.h"
+
+1617278814 source:/home/Death/Desktop/Database c++/Database/src/NSQL_ColHandler.cpp
+	"NSQL_ColHandler.h"
+
+1617796768 /home/Death/Desktop/Database c++/Database/include/NSQL_ColHandler.h
+	<string>
+
+1621941346 source:/home/Death/Desktop/Database c++/Database/src/NSQL_TabHandler.cpp
+	"NSQL_TabHandler.h"
+
+1621854879 /home/Death/Desktop/Database c++/Database/include/NSQL_TabHandler.h
+	"tableInfoNSQL.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1617796786 /home/Death/Desktop/Database c++/Database/include/SQL_ColHandler.h
+	<string>
+
+1617879601 source:/home/Death/Desktop/Database c++/Database/src/SQL.cpp
+	<unistd.h>
+	<fstream>
+	<iostream>
+	<cstring>
+	"SQL.h"
+	"functionsDB.h"
+	"SQL_ColHandler.h"
+	"functionsDB.h"
+
+1617278829 source:/home/Death/Desktop/Database c++/Database/src/SQL_ColHandler.cpp
+	"SQL_ColHandler.h"
+
+1621671888 source:/home/Death/Desktop/Database c++/Database/src/SQL_TabHandler.cpp
+	"SQL_TabHandler.h"
+
+1621854751 /home/Death/Desktop/Database c++/Database/include/SQL_TabHandler.h
+	"tableInfo.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1621854681 /home/Death/Desktop/Database c++/Database/include/Handler.h
+	"functionsDB.h"
+	"Col_Handler.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1620467036 source:/home/Death/Desktop/Database c++/Database/src/Handler.cpp
+	"Handler.h"
+
+1621504617 source:/home/Death/Desktop/Database c++/Database/src/Col_Handler.cpp
+	"Col_Handler.h"
+
+1621854878 /home/Death/Desktop/Database c++/Database/include/Col_Handler.h
+	"functionsDB.h"
+	"SQL_TabHandler.h"
+	"NSQL_TabHandler.h"
+
+1619351349 /home/Death/Desktop/Database c++/Database/include/dataTypeHandler.h
+	<vector>
+	<string>
+	<cstring>
+	<unordered_map>
+
+1619351383 source:/home/Death/Desktop/Database c++/Database/src/dataTypeHandler.cpp
+	"dataTypeHandler.h"
+
+1621854738 /home/Death/Desktop/Database c++/Database/include/tableInfo.h
+	"paramDefinitions.h"
+
+1620299632 source:/home/Death/Desktop/Database c++/Database/src/tableInfo.cpp
+	"tableInfo.h"
+
+1620295405 source:/home/Death/Desktop/Database c++/Database/src/DB_Exceptions.cpp
+	"DB_Exceptions.h"
+
+1620212110 /home/Death/Desktop/Database c++/Database/include/DB_Exceptions.h
+
+1621854751 /home/Death/Desktop/Database c++/Database/include/tableInfoNSQL.h
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1621941530 source:/home/Death/Desktop/Database c++/Database/src/tableInfoNSQL.cpp
+	"tableInfoNSQL.h"
+
+1621941214 /home/Death/Desktop/Database c++/Database/include/paramDefinitions.h
+	<vector>
+	<fstream>
+	<map>
+	<bitset>
+	<stdlib.h>
+	<string>
+	<cstring>
+	<iostream>
+	<unistd.h>
+	<algorithm>
+	<unordered_map>
+	<functional>
+	<iomanip>
+	<ctype.h>
+	<cstdio>
+	<string>
+
+1628428628 source:/home/Death/Desktop/C++ developement/Database Backend/Database/main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<new>
+	<fstream>
+	<unistd.h>
+	"functionsDB.h"
+	"Exisiting_DB.h"
+	"Database.h"
+	<syscall.h>
+
+1628428628 /home/Death/Desktop/C++ developement/Database Backend/Database/include/functionsDB.h
+	<paramDefinitions.h>
+
+1628341169 /home/Death/Desktop/C++ developement/Database Backend/Database/include/paramDefinitions.h
+	<vector>
+	<fstream>
+	<map>
+	<bitset>
+	<stdlib.h>
+	<string>
+	<cstring>
+	<iostream>
+	<unistd.h>
+	<algorithm>
+	<unordered_map>
+	<functional>
+	<iomanip>
+	<ctype.h>
+	<cstdio>
+	<string>
+
+1621854597 /home/Death/Desktop/C++ developement/Database Backend/Database/include/Exisiting_DB.h
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1621854878 /home/Death/Desktop/C++ developement/Database Backend/Database/include/Database.h
+	"Database.h"
+	"functionsDB.h"
+	"Handler.h"
+	"paramDefinitions.h"
+
+1621854681 /home/Death/Desktop/C++ developement/Database Backend/Database/include/Handler.h
+	"functionsDB.h"
+	"Col_Handler.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1621854878 /home/Death/Desktop/C++ developement/Database Backend/Database/include/Col_Handler.h
+	"functionsDB.h"
+	"SQL_TabHandler.h"
+	"NSQL_TabHandler.h"
+
+1621854751 /home/Death/Desktop/C++ developement/Database Backend/Database/include/SQL_TabHandler.h
+	"tableInfo.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1621854738 /home/Death/Desktop/C++ developement/Database Backend/Database/include/tableInfo.h
+	"paramDefinitions.h"
+
+1621854879 /home/Death/Desktop/C++ developement/Database Backend/Database/include/NSQL_TabHandler.h
+	"tableInfoNSQL.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1621854751 /home/Death/Desktop/C++ developement/Database Backend/Database/include/tableInfoNSQL.h
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1621504617 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/Col_Handler.cpp
+	"Col_Handler.h"
+
+1620387064 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/Database.cpp
+	"Database.h"
+
+1620295405 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/DB_Exceptions.cpp
+	"DB_Exceptions.h"
+
+1620212110 /home/Death/Desktop/C++ developement/Database Backend/Database/include/DB_Exceptions.h
+
+1619351876 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/Exisiting_DB.cpp
+	"Exisiting_DB.h"
+
+1628428628 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/functionsDB.cpp
+	"functionsDB.h"
+
+1620467036 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/Handler.cpp
+	"Handler.h"
+
+1628427027 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/NSQL_TabHandler.cpp
+	"NSQL_TabHandler.h"
+
+1628423126 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/SQL_TabHandler.cpp
+	"SQL_TabHandler.h"
+
+1620299632 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/tableInfo.cpp
+	"tableInfo.h"
+
+1628425440 source:/home/Death/Desktop/C++ developement/Database Backend/Database/src/tableInfoNSQL.cpp
+	"tableInfoNSQL.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<new>
+	<fstream>
+	<unistd.h>
+	"functionsDB.h"
+	"Exisiting_DB.h"
+	"Database.h"
+	<syscall.h>
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/functionsDB.h
+	<paramDefinitions.h>
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/paramDefinitions.h
+	<vector>
+	<fstream>
+	<map>
+	<bitset>
+	<stdlib.h>
+	<string>
+	<cstring>
+	<iostream>
+	<unistd.h>
+	<algorithm>
+	<unordered_map>
+	<functional>
+	<iomanip>
+	<ctype.h>
+	<cstdio>
+	<string>
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/Exisiting_DB.h
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/Database.h
+	"Database.h"
+	"functionsDB.h"
+	"Handler.h"
+	"paramDefinitions.h"
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/Handler.h
+	"functionsDB.h"
+	"Col_Handler.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/Col_Handler.h
+	"functionsDB.h"
+	"SQL_TabHandler.h"
+	"NSQL_TabHandler.h"
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/SQL_TabHandler.h
+	"tableInfo.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/tableInfo.h
+	"paramDefinitions.h"
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/NSQL_TabHandler.h
+	"tableInfoNSQL.h"
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1653040605 /home/Death/Desktop/C++ developement/Database/include/tableInfoNSQL.h
+	"functionsDB.h"
+	"paramDefinitions.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/Col_Handler.cpp
+	"Col_Handler.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/Database.cpp
+	"Database.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/DB_Exceptions.cpp
+	"DB_Exceptions.h"
+
+1653040586 /home/Death/Desktop/C++ developement/Database/include/DB_Exceptions.h
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/Exisiting_DB.cpp
+	"Exisiting_DB.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/functionsDB.cpp
+	"functionsDB.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/Handler.cpp
+	"Handler.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/NSQL_TabHandler.cpp
+	"NSQL_TabHandler.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/SQL_TabHandler.cpp
+	"SQL_TabHandler.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/tableInfo.cpp
+	"tableInfo.h"
+
+1653040605 source:/home/Death/Desktop/C++ developement/Database/src/tableInfoNSQL.cpp
+	"tableInfoNSQL.h"
+
